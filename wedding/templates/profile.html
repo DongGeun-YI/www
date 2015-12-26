@@ -1,0 +1,25 @@
+<!doctype html>
+
+{#{% load render_bundle from webpack_loader %}#}
+<html>
+<head>
+    <meta name="viewport" content="width=320,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../static/profile.css">
+{#    {% render_bundle 'style' %}#}
+</head>
+<body>
+    <div class="p_wrapper">
+        <div class="title">we're</div>
+        <div class="bride_intro">
+            <img src="https://pbs.twimg.com/profile_images/651438036069167104/RWvQ0Jn4.jpg" />
+            <br>
+            {{ bride_name }}
+        </div>
+        <div class="groom_intro">
+            <img src="https://d.gr-assets.com/characters/1271714706p8/41070.jpg" />
+            <br>
+            {{ groom_name }}
+        </div>
+    </div>
+</body>
+</html>

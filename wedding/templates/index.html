@@ -1,0 +1,34 @@
+<!doctype html>
+
+{#{% load render_bundle from webpack_loader %}#}
+<html>
+<head>
+    <meta name="viewport" content="width=320,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../static/index.css">
+{#    {% render_bundle 'style' %}#}
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+            <h1 class="title">{{title}}</h1>
+            <img class="main_Image" src="http://www.rebelshaven.com/SWFFAQ/images/wedding/weddingscreen4.jpg" />
+            <h3 class="subtitle">{{subtitle}}</h3>
+
+            <div class="summary">
+                <hr />
+                <strong>일시 | </strong> 2100년 12월 25일
+                <strong>장소 | </strong> 은하계 제국 어딘가
+                <hr />
+            </div>
+            <div class="describe">{{description | linebreaksbr}}</div>
+            <div>
+                <div id="form"></div>
+            </div>
+        </div>
+        <a href={% url "profile" %}>신랑신부 소개</a>
+        <div>사진첩</div>
+        <div>축하인사 남기기</div>
+    </div>
+{#    {% render_bundle 'index' %}#}
+</body>
+</html>

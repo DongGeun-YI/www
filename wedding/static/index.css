@@ -1,0 +1,24 @@
+.wrapper {
+    text-align: center;
+}
+
+
+.title {
+    font-size: 50px;
+    text-align: center;
+}
+
+.main_Image {
+    /*width: 656px;*/
+    /*height: 586px;*/
+
+}
+
+.summary {
+    font-size: 20px;
+}
+
+.describe {
+    font-size: 20px;
+}
+
