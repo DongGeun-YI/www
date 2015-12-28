@@ -1,0 +1,21 @@
+#typed {
+    white-space:pre;
+}
+
+#anss p{
+    padding: 20px;
+    border-radius: 5px;
+    background: white;
+    color: #333;
+    clear: both;
+    float: left;
+    font-size: 25px;
+    margin-top: 10px;
+    background-color: dodgerblue;
+}
+
+
+.BtnNext > .NextQ{
+    width: 100px;
+    height: 50px;
+}

@@ -43,7 +43,7 @@ def subscribe(request):
 def profile(request):
     bride_name = "파드메"
     groom_name = "아나킨"
-    return render (request, 'profile.html', {
+    return render (request, '7q.html', {
       'bride_name': bride_name,
       'groom_name': groom_name,
     })
